@@ -10,6 +10,7 @@ left join company_dim as cd
 
 limit 10;
 
+select * from job_posting_fact limit 10;
 
 SELECT  
     jpf.job_id,
@@ -25,6 +26,8 @@ order by jpf.job_id
 --where sjd.skill_id is null
 --limit 20
 ;
+
+select * from job_posting_fact limit 10;
 
 SELECT  
     jpf.job_id,
